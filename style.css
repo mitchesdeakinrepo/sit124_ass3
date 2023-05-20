@@ -1,60 +1,58 @@
-body{
-    background-color: black;
-    text-align: center;
+body {
+  background-color: black;
+  text-align: center;
 }
-.nav{
-    border: solid gray;
-    border-radius: 20px;
+.nav {
+  border: solid gray;
+  border-radius: 20px;
 }
-h1{
-    border: solid gray;
-    border-radius: 15px;
-    color: rgb(56, 11, 191);
-    font-size: 45px;
+h1 {
+  border: solid gray;
+  border-radius: 15px;
+  color: rgb(56, 11, 191);
+  font-size: 45px;
 }
-button{
-    background-color: dimgrey;
-    color: dodgerblue;
-    border-radius: 90px;
-    font-size: 20px;
+button {
+  background-color: dimgrey;
+  color: dodgerblue;
+  border-radius: 90px;
+  font-size: 20px;
 }
-h2{
-    color: rgb(25, 25, 95);
-    font-size: 30px;
+h2 {
+  color: rgb(25, 25, 95);
+  font-size: 30px;
 }
-h6{
-    color: rgb(156, 154, 154);
-    font-size: xx-small;
-    font-style: oblique;
-    
+h6 {
+  color: rgb(156, 154, 154);
+  font-size: xx-small;
+  font-style: oblique;
 }
-p{
-    color: white;
-    font-size: 30px;
-    font-style: italic;
+p {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
 }
-.authors{
-    font-size: small;
-    color: rgb(211, 180, 7);
-
+.authors {
+  font-size: small;
+  color: rgb(211, 180, 7);
 }
-.pics{
-    display: flex;
-    width: 100%;
+.pics {
+  display: flex;
+  width: 100%;
 }
-.aipic{
-    width: 50%;
-    height: 100%;
-    padding: 5px;
+.aipic {
+  width: 50%;
+  height: 100%;
+  padding: 5px;
 }
-.blockpic{
-    width: 50%;
-    height: 100%;
-    padding: 5px;
+.blockpic {
+  width: 50%;
+  height: 100%;
+  padding: 5px;
 }
-form{
-    background-color: rgb(33, 37, 37);
-    border: solid lightgreen;
-    border-radius: 45px;
-    color: white;
+form {
+  background-color: rgb(33, 37, 37);
+  border: solid lightgreen;
+  border-radius: 45px;
+  color: white;
 }
