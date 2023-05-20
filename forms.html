@@ -6,54 +6,99 @@
   </head>
 
   <body>
-    <div class="nav">
-      <h1>Contact</h1>
-      <button aria-label="Home" onclick="window.location.href='index.html';">
-        Home
-      </button>
-      <button
-        aria-label="Collection"
-        onclick="window.location.href='collection.html';"
-      >
-        Collection
-      </button>
-      <button
-        aria-label="Workplace Technology"
-        onclick="window.location.href='workplace_tech.html';"
-      >
-        Workplace Tech
-      </button>
-    </div>
+    <header>
+      <nav>
+        <h1>Contact</h1>
+        <button aria-label="Home" onclick="window.location.href='index.html';">
+          Home
+        </button>
+        <button
+          aria-label="Collection"
+          onclick="window.location.href='collection.html';"
+        >
+          Collection
+        </button>
+        <button
+          aria-label="Workplace Technology"
+          onclick="window.location.href='workplace_tech.html';"
+        >
+          Workplace Tech
+        </button>
+      </nav>
+    </header>
     <section>
       <h2>Want to get in touch with us?</h2>
-      <p>Please use the form below for any enquries and requests.</p>
+      <p>
+        Before using the forms below form below for any enquries and requests
+        please try the following contact methods:
+      </p>
+      <ul>
+        <li><a href="mailto:fake@email.com">Email</a></li>
+        <li>Instagram: @emergingtech</li>
+      </ul>
     </section>
-    <div class="form_container">
-      <form>
-        <label for="firstname">First Name:</label>
-        <input class="firstname" placeholder="jeff" type="text" />
-        <br />
-        <label for="lastname">Last Name:</label>
-        <input class="lastname" placeholder="bezos" type="text" />
-        <br />
-        <label for="color">Pick your favourite color:</label>
-        <input class="coloe" type="color" />
-        <br />
-        <label for="email">Enter your Email:</label>
-        <input class="email" type="email" />
-        <br />
-        <label for="comments">Whats on your mind:</label><br />
-        <textarea
-          class="comments"
-          name="comments"
-          id="comments"
-          cols="30"
-          rows="5"
-          placeholder="i like this site"
-        ></textarea>
-        <br />
-        <button type="sumbit">submit</button>
-      </form>
-    </div>
+    <section>
+      <h2>Feedback</h2>
+      <p>
+        Use this form to provide us with feedback. We take all feedback very
+        seriously.
+      </p>
+      <div id="Feedback" class="form_container">
+        <form>
+          <label for="firstname">First Name:</label>
+          <input class="firstname" placeholder="Jeff" type="text" />
+          <br />
+          <label for="lastname">Last Name:</label>
+          <input class="lastname" placeholder="Bezos" type="text" />
+          <br />
+          <label for="email">Enter your Email:</label>
+          <input class="email" type="email" />
+          <br />
+          <label for="comments">What's on your mind?:</label><br />
+          <textarea
+            class="comments"
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="5"
+            placeholder="I like this site!"
+          ></textarea>
+          <br />
+          <button type="sumbit">submit</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <h2>Submission</h2>
+      <p>Use this form to make any content requests.</p>
+      <div id="Feedback" class="form_container">
+        <form>
+          <label for="firstname">First Name:</label>
+          <input class="firstname" placeholder="Jeff" type="text" />
+          <br />
+          <label for="lastname">Last Name:</label>
+          <input class="lastname" placeholder="Bezos" type="text" />
+          <br />
+          <label for="email">Enter your Email:</label>
+          <input class="email" type="email" />
+          <br />
+          <label for="technology">Technology:</label>
+          <input class="technology" placeholder="Robotics" type="text" />
+          <br />
+          <label for="comments">Additional Details:</label><br />
+          <textarea
+            class="comments"
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="5"
+            placeholder="Why is this request important to you?"
+          ></textarea>
+          <br />
+          <button type="sumbit">submit</button>
+        </form>
+      </div>
+    </section>
+    <footer><p>Developed by Mitchell Foxman & Alex He - SIT124 2023</p></footer>
   </body>
 </html>
