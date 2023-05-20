@@ -4,41 +4,56 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>SIT124 Assignment 3 - Mitchell Foxman & Alex He</title>
   </head>
+
   <body>
-    <script src="node_modules\moment\moment.js"></script>
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>ass 3 website</title>
-</head>
-<body>
-    <div class="nav">
-      <h1>Welcome to Assignment 3</h1>
-      <button aria-label="Home" onclick="window.location.href='index.html';">
-        Home
-      </button>
-      <button
-        aria-label="Collection"
-        onclick="window.location.href='collection.html';"
-      >
-        Collection
-      </button>
-      <button
-        aria-label="Workplace Technology"
-        onclick="window.location.href='workplace_tech.html';"
-      >
-        Workplace Tech
-      </button>
-      <button aria-label="Contact" onclick="window.location.href='forms.html';">
-        Contact
-      </button>
+    <header>
+      <nav>
+        <button aria-label="Home" onclick="window.location.href='index.html';">
+          Home
+        </button>
+        <button
+          aria-label="Collection"
+          onclick="window.location.href='collection.html';"
+        >
+          Collection
+        </button>
+        <button
+          aria-label="Workplace Technology"
+          onclick="window.location.href='workplace_tech.html';"
+        >
+          Workplace Tech
+        </button>
+        <button
+          aria-label="Contact"
+          onclick="window.location.href='forms.html';"
+        >
+          Contact
+        </button>
+      </nav>
+    </header>
+    <div>
+      <ol>
+        <li>
+          <a href="#1">Introduction</a>
+        </li>
+        <li>
+          <a href="#2">Authors</a>
+        </li>
+        <li>
+          <a href="#3">Available Emerging Technology Reports</a>
+        </li>
+      </ol>
     </div>
+    <h1>Welcome to Assignment 3</h1>
     <p class="intro">
       This website was created as a proposed solution to Ms Belinda Bates'
       request in SIT124 Assignment 3. The site is hosted on GitHub and was
       developed using HTML, JavaScript and CSS.
     </p>
     <br />
-    <h2>INTRODUCTION TO WEBSITE</h2>
+    <h2 id="1">INTRODUCTION TO WEBSITE</h2>
+
+  <h2>INTRODUCTION TO WEBSITE</h2>
     <p class="writeup">
       This website was built according to our implementation plan. The purpose
       of this website is to inform the community about new and emerging
@@ -48,13 +63,25 @@
       content, incorporate interactive features, and provide a seamless user
       experience.
     </p>
-    <h6>Authors:</h6>
+    <h3 id="2">Authors</h3>
     <p class="authors">
       Mitchell Foxman <br />
       Alex He
     </p>
+    <h3 id="3">Available Emerging Technology Reports</h3>
+    <dl>
+      <dt>Artificial Intelligence (AI)</dt>
+      <dd>Intelligence displayed by machines rather than humans.</dd>
+      <dt>Blockchain</dt>
+      <dd>A distributed cryptographic ledger.</dd>
+    </dl>
+    <p>See <a href="./collection.html">Collection</a> for more...</p>
+    <script src="node_modules\moment\moment.js"></script>
     <script>
       console.log(moment());
     </script>
+    <footer>
+      <p>Developed by Mitchell Foxman & Alex He - SIT124 2023</p>
+    </footer>
   </body>
 </html>

@@ -2,7 +2,7 @@ body {
   background-color: black;
   text-align: center;
 }
-.nav {
+nav {
   border: solid gray;
   border-radius: 20px;
 }
