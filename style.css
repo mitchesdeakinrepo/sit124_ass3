@@ -4,7 +4,15 @@ body{
 }
 h1{
     color: rgb(56, 11, 191);
-    font-size: 40px;
+    font-size: 45px;
+}
+button{
+    background-color: dimgrey;
+    color: dodgerblue;
+}
+h2{
+    color: rgb(25, 25, 95);
+    font-size: 30px;
 }
 h6{
     color: rgb(156, 154, 154);
