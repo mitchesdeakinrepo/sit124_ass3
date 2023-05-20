@@ -22,6 +22,10 @@ h2 {
   color: rgb(25, 25, 95);
   font-size: 30px;
 }
+h3 {
+  color: rgb(25, 25, 95);
+  font-size: 30px;
+}
 h6 {
   color: rgb(156, 154, 154);
   font-size: xx-small;
@@ -54,5 +58,8 @@ form {
   background-color: rgb(33, 37, 37);
   border: solid lightgreen;
   border-radius: 45px;
+  color: white;
+}
+dl {
   color: white;
 }
