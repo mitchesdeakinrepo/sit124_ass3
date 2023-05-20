@@ -1,36 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>ass 3 website</title>
-</head>
-<body>
-    <script src="node_modules\moment\moment.js"> </script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>SIT124 Assignment 3 - Mitchell Foxman & Alex He</title>
+  </head>
+  <body>
+    <script src="node_modules\moment\moment.js"></script>
     <div class="nav">
-        <h1>Welcome to Assignment 3</h1>
-        <button onclick="window.location.href='index.html';">Home</button>  
-        <button onclick="window.location.href='collection.html';">Collection</button>  
-        <button onclick="window.location.href='workplace_tech.html';">Workplace tech</button>
-        <button onclick="window.location.href='forms.html';">Forms</button>
+      <h1>Welcome to Assignment 3</h1>
+      <button aria-label="Home" onclick="window.location.href='index.html';">
+        Home
+      </button>
+      <button
+        aria-label="Collection"
+        onclick="window.location.href='collection.html';"
+      >
+        Collection
+      </button>
+      <button
+        aria-label="Workplace Technology"
+        onclick="window.location.href='workplace_tech.html';"
+      >
+        Workplace Tech
+      </button>
+      <button aria-label="Contact" onclick="window.location.href='forms.html';">
+        Contact
+      </button>
     </div>
-    <p class="intro">This website is for sit124's assignment 3. Which we have to build a website using HTML, JavaScript and CSS.</p>
-    <h2>Time Since Submission: <span id = "timesince">tick</span> <script>
-        let timesince = moment() ;
-        document.getElementById("timesince").innerHTML=timesince;
-    </script></h2>
-    
-    <br>
+    <p class="intro">
+      This website was created as a proposed solution to Ms Belinda Bates'
+      request in SIT124 Assignment 3. The site is hosted on GitHub and was
+      developed using HTML, JavaScript and CSS.
+    </p>
+    <h2>
+      Time Since Submission: <span id="timesince">tick</span>
+      <script>
+        let timesince = moment();
+        document.getElementById("timesince").innerHTML = timesince;
+      </script>
+    </h2>
+    <br />
     <h2>INTRODUCTION TO WEBSITE</h2>
-    <p class="writeup">This implementation plan was created as a proposed solution to Ms Belinda Bates’ request for
-         the development of a website. The purpose of this website is to inform the community about new and 
-         emerging technology, as well as technology which is shaping the workplace of the future. The website will be developed
-         in HTML, CSS & JavaScript. These technologies will enable the development team to create a responsive and dynamic website that can display 
-         multimedia content, incorporate interactive features, and provide a seamless user experience.
-        </p>
+    <p class="writeup">
+      This website was built according to our implementation plan. The purpose
+      of this website is to inform the community about new and emerging
+      technology, as well as technology which is shaping the workplace of the
+      future. HTML, CSS & JavaScript helps to make our goal a reality, allowing
+      us to deliver a responsive and dynamic website that can display multimedia
+      content, incorporate interactive features, and provide a seamless user
+      experience.
+    </p>
     <h6>Authors:</h6>
-    <p class="authors">Mitchell Foxman <br> Alex He </p>
-        <script>
-            console.log(moment());
-        </script>
-</body> 
+    <p class="authors">
+      Mitchell Foxman <br />
+      Alex He
+    </p>
+    <script>
+      console.log(moment());
+    </script>
+  </body>
 </html>
